@@ -2,7 +2,8 @@ import { View, Text, StyleSheet, Button } from 'react-native'
 
 export const Home = ({ navigation }) => {
     return <View style={styles.container}>
-        <Text>HOME</Text>
+        <Text>Bienvenido a mi aplicacion soy estudiante 2 fERNANDO PONCE</Text>
+        <Text>FRASE CUALQUIERA</Text>
 
         <View style={styles.botones}>
 
@@ -33,9 +34,10 @@ export const Home = ({ navigation }) => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#fff',
+        backgroundColor: '#6cb93f',
         alignItems: 'center',
         justifyContent: 'center',
+        paddingHorizontal:30,
     },
     botones: {
         flexDirection: 'row',
@@ -45,7 +47,7 @@ const styles = StyleSheet.create({
 
     },
     boton1: {
-
+        color:'red',
         marginRight: 60,
 
     },
